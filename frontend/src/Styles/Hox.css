@@ -297,3 +297,11 @@
     color:var(--s);
 }
 
+.Footer{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: black;
+    color:white;
+    font-family: var(--font);
+}

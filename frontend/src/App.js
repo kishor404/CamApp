@@ -1,6 +1,7 @@
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 
 import Navbar from "./Components/Navbar.js";
+import Footer from "./Components/Footer.js"
 
 import CamApp from "./CamApp.js";
 import HoxComponents from "./HoxComponents.js"
@@ -16,6 +17,7 @@ function App() {
             <Route path="/Hox" element={<HoxComponents/>}/>
           </Routes>
         </div>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
