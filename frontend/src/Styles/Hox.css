@@ -264,9 +264,8 @@
 .Hox-Nav2{
     color:var(--t);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0px 50px;
     height: 70px;
     background-color: var(--p);
 }
