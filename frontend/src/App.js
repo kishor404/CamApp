@@ -2,7 +2,7 @@ import {BrowserRouter,Routes,Route} from "react-router-dom";
 
 import Navbar from "./Components/Navbar.js";
 
-import P1 from "./Page1.js";
+import CamApp from "./CamApp.js";
 import HoxComponents from "./HoxComponents.js"
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         <Navbar/>
         <div className="Pages">
           <Routes>
-            <Route path="/" element={<P1/>}/>
+            <Route path="/" element={<CamApp/>}/>
             <Route path="/Hox" element={<HoxComponents/>}/>
           </Routes>
         </div>

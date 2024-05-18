@@ -1,0 +1,42 @@
+:root{
+    --p:black;
+    --s:red;
+    --t:white;
+}
+
+.CA-Cont{
+    background-color: var(--p);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.CA-Menu{
+    width: 30%;
+    height: 60vh;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    height:30vh;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.CA-Vid{
+    background-color: yellow;
+    width: 60%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LED-Togg{
+    color: var(--t);
+    font-family: var(--font);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
